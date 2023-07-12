@@ -28,4 +28,76 @@ def get_guess():
         if len(guess) == 1 and guess.isalpha():
             return guess
         else:
-            print("Invalid input. Please enter a single letter.") 
+            print("Invalid input. Please enter a single letter.")
+
+    """
+    Adding ASCII art for better visual experience as well as attempts made
+    """
+
+def draw_hangman(attempts):
+    stages = [
+        '''
+            --------
+            |      |
+            |      O
+            |     \|/
+            |      |
+            |     / \
+            -
+        ''',
+        '''
+            --------
+            |      |
+            |      O
+            |     \|/
+            |      |
+            |     /
+            -
+        ''',
+        '''
+            --------
+            |      |
+            |      O
+            |     \|/
+            |      |
+            |
+            -
+        ''',
+        '''
+            --------
+            |      |
+            |      O
+            |     \|
+            |      |
+            |
+            -
+        ''',
+        '''
+            --------
+            |      |
+            |      O
+            |      |
+            |      |
+            |
+            -
+        ''',
+        '''
+            --------
+            |      |
+            |      O
+            |
+            |
+            |
+            -
+        ''',
+        '''
+            --------
+            |      |
+            |
+            |
+            |
+            |
+            -
+        '''
+    ]
+    return stages[6 - attempts] 
