@@ -1,57 +1,9 @@
 import random
 
 """
-Hangman stages
+Choices of words for hangman
 """
-hangman_stages = [
-'''
-                                    +---+
-                                    |   |
-                                    O   |
-                                   /|\  |
-                                   / \  |
-                                        |
-                                    =========''', '''
-                                    +---+
-                                    |   |
-                                    O   |
-                                   /|\  |
-                                   /    |
-                                        |
-                                    =========''', '''
-                                    +---+
-                                    |   |
-                                    O   |
-                                   /|\  |
-                                        |
-                                        |
-                                    =========''', '''
-                                    +---+
-                                    |   |
-                                    O   |
-                                   /|   |
-                                        |
-                                        |
-                                    =========''', '''
-                                    +---+
-                                    |   |
-                                    O   |
-                                    |   |
-                                        |
-                                        |
-                                    =========''', '''
-                                    +---+
-                                    |   |
-                                    O   |
-                                        |
-                                        |
-                                        |
-                                    =========''', '''
-                                    +---+
-                                    |   |
-                                        |
-                                        |
-                                        |
-                                        |
-                                    ========='''
-]
+
+def pick_word():
+    word_list = ["hangman", "python", "programming", "computer", "game", "player"]
+    return random.choice(word_list)
