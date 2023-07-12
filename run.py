@@ -101,3 +101,46 @@ def draw_hangman(attempts):
         '''
     ]
     return stages[6 - attempts] 
+
+"""
+adding words picked, correct, incorrect and attemps
+"""
+
+def play_game():
+    word = pick_word()
+    guessed_letters = []
+    incorrect_guesses = []
+    attempts = 6
+
+    print("Welcome to Hangman!")
+    print("The word has", len(word), "letters.")
+
+    while True:
+        print(draw_hangman(attempts))
+        print("Attempts left:", attempts)
+        print("Word:", display_word(word, guessed_letters))
+        print("Incorrect guesses:", " ".join(incorrect_guesses))
+
+        if "_" not in display_word(word, guessed_letters):
+            print("Congratulations! You guessed the word correctly!")
+            break
+
+        guess = get_guess()
+
+        if guess in guessed_letters or guess in incorrect_guesses:
+            print("You already guessed that letter. Try again.")
+            continue
+
+        if guess in word:
+            guessed_letters.append(guess)
+            print("Correct guess!")
+        else:
+            incorrect_guesses.append(guess)
+            attempts -= 1
+            print("Incorrect guess.")
+
+            if attempts == 0:
+                print("Sorry, you ran out of attempts. The word was:", word)
+                break
+
+play_game()
