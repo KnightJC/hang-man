@@ -13,7 +13,7 @@
 - You can start stright away by select the correct letter to play the game. You have 6 attempts. 
 - You will see each incorrect letter entered and you can not guess the same letter again.
 
-image - incorrect guess
+![hangman incorrect guess](https://github.com/KnightJC/hang-man/assets/123365090/cad86e99-e3ab-4b38-94db-5b979a91d7c3)
 
 - You cannot enter the word but only enter each letter.
 -
