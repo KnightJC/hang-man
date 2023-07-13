@@ -22,7 +22,7 @@
 - Visual representation of the hangman game.
 -If you could not guess the word after 6 tries you can always play again with the 'yes/no' feature
 
-image play again
+![hangman play again](https://github.com/KnightJC/hang-man/assets/123365090/17b54cde-9f4b-49ca-9208-eb059fe2e931)
 
 - If you do not want to play anymore then the game will exit from the terminal with a little message
 
