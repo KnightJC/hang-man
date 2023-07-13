@@ -26,7 +26,8 @@
 
 - If you do not want to play anymore then the game will exit from the terminal with a little message
 
-image thank you
+![hangman thanks for playing](https://github.com/KnightJC/hang-man/assets/123365090/e05e5f01-dc8c-4d04-a8b4-202cc717c6aa)
+
 
 ### Improvements:
 
