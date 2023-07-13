@@ -10,15 +10,14 @@
 ![hangman main game](https://github.com/KnightJC/hang-man/assets/123365090/30ceb796-cf43-4302-b520-b8afa5da6469)
 
 
-- You can start stright away by select the correct letter to play the game. You have 6 attempts. 
+- You can start stright away by select the correct letter to play the game. You have 6 attempts as well as a hint of how many letters in the word 
 - You will see each incorrect letter entered and you can not guess the same letter again.
 
 ![hangman incorrect guess](https://github.com/KnightJC/hang-man/assets/123365090/cad86e99-e3ab-4b38-94db-5b979a91d7c3)
 
 - You cannot enter the word but only enter each letter.
--
 
-image correct guess
+![hangman correct guess](https://github.com/KnightJC/hang-man/assets/123365090/5ccbc489-88dc-4afb-aada-4af6f6eab76c)
 
 - Visual representation of the hangman game.
 -If you could not guess the word after 6 tries you can always play again with the 'yes/no' feature
