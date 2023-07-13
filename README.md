@@ -1,32 +1,53 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+## User Experience:
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+- When the user visits the website they will see a brief view of the main menu screen showing the game. This will show a 'Welcome to Hangman' as well as an ASCII visual art for the start of the game.
 
-## Reminders
+image - welcome
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+image - main game
 
-## Creating the Heroku app
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- You can start stright away by select the correct letter to play the game. You have 6 attempts. 
+- You will see each incorrect letter entered and you can not guess the same letter again.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+image - incorrect guess
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+- You cannot enter the word but only enter each letter.
+-
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+image correct guess
 
-Connect your GitHub repository and deploy as normal.
+- Visual representation of the hangman game.
+-If you could not guess the word after 6 tries you can always play again with the 'yes/no' feature
 
-## Constraints
+image play again
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- If you do not want to play anymore then the game will exit from the terminal with a little message
 
----
+image thank you
 
-Happy coding!
+### Improvements:
+
+- There could be a main menu before the game starts with possible instructions and name?
+- Bigger variety of words
+- Possible animation across the screen to make it more interactive
+
+### PEP8
+
+- I used the PEP8/ CI Python Linter online checker and my python code looks good.
+- Errors that was experienced was the actual lines within the ASCII art
+
+### Deployment
+
+- I signed into heroku website where I create a new app
+- I named my app "hangmanjck"
+- Added two buildpacks to the app, Python (top) and NodeJS (bottom)
+- Choose the deployment button and connected my GitHub project to the heroku website
+- Enabled autmatic deplots so I can push new code to the deployed website
+- After choosing the deployed branch which was created my app
+- Link to the site was live: https://hangmanjck-fa5a7ec5d4b9.herokuapp.com/
+
+### Thank you and I hope you enjoy!
+
+
