@@ -46,7 +46,7 @@
 - I named my app "hangmanjck"
 - Added two buildpacks to the app, Python (top) and NodeJS (bottom)
 - Choose the deployment button and connected my GitHub project to the heroku website
-- Enabled autmatic deplots so I can push new code to the deployed website
+- I manually deployed so I can push new code to the deployed website
 - After choosing the deployed branch which was created my app
 - Link to the site was live: https://hangmanjck-fa5a7ec5d4b9.herokuapp.com/
 
