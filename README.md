@@ -7,7 +7,7 @@
 
 ![hangman welcome](https://github.com/KnightJC/hang-man/assets/123365090/d110981b-3802-416f-ae82-256a18b5012d)
 
-image - main game
+![hangman main game](https://github.com/KnightJC/hang-man/assets/123365090/30ceb796-cf43-4302-b520-b8afa5da6469)
 
 
 - You can start stright away by select the correct letter to play the game. You have 6 attempts. 
