@@ -5,7 +5,7 @@
 
 - When the user visits the website they will see a brief view of the main menu screen showing the game. This will show a 'Welcome to Hangman' as well as an ASCII visual art for the start of the game.
 
-image - welcome
+![hangman welcome](https://github.com/KnightJC/hang-man/assets/123365090/d110981b-3802-416f-ae82-256a18b5012d)
 
 image - main game
 
