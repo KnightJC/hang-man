@@ -48,7 +48,7 @@
 - Choose the deployment button and connected my GitHub project to the heroku website
 - I manually deployed so I can push new code to the deployed website
 - After choosing the deployed branch which was created my app
-- Link to the site was live: https://hangmanjck-fa5a7ec5d4b9.herokuapp.com/
+- Link to the site was live: https://hangmanjck-fa5a7ec5d4b9.herokuapp.com
 
 ### Thank you and I hope you enjoy!
 
